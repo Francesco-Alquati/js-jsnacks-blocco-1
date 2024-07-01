@@ -14,11 +14,16 @@ button.addEventListener('click', function (){
 
     // CICLO L'ARRAY   
     for (i = 0; i < invited.length; i++){
-        // CONFRONTO IL NOME INSERITO DALL'UTENTE CON QUELLI PRESENTI NELL'ARRAY E AGGIORNO LA VARIABILE FLAG
-            if( invited[i].toLowerCase() == user_name.toLowerCase() ){
-                check_name = true;
-            }
-            
+    // CONFRONTO IL NOME INSERITO DALL'UTENTE CON QUELLI PRESENTI NELL'ARRAY E AGGIORNO LA VARIABILE FLAG
+        if( invited[i].toLowerCase() == user_name.toLowerCase() ){
+            check_name = true;
+        }
+    }
+    if(check_name == true){
+        console.log(`${user_name} Benvenuto alla festa`);
+    }
+    else{
+        console.log(`${user_name} Non sei stato invitato`);
     }
     
 })
