@@ -16,7 +16,12 @@ btn.addEventListener('click' ,function (){
     // RICHIAMO L'INPUT DAL DOM
     let text = document.getElementById('input').value;
   
-    
+    // CREO UNA CONDIZIONE PER POTER INSERIRE SOLO 6 VOLTE UN NUMERO
+    if(count <= 5){
+        count++;
+        disp.innerHTML = count;
+
+    }
 })
 
 
