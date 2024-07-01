@@ -8,10 +8,17 @@ let btn = document.getElementById("calculate");
 btn.addEventListener('click' ,function (){
 
     // RICHIAMO L'INPUT DAL DOM
-    let number = document.getElementById('number').value;
-    
+    let num = document.getElementById('number').value;
+
     // CREO L'ARRAY
-    const array = number.split("");
-    console.log(array);
+    const array = num.split("");
     
+    
+    for(let i = 0; i < array.length; i++){
+        
+        const intero = array[i]; 
+        somma += parseInt(intero);
+    }
+    console.log( "La somma è " + somma);
 })
+
