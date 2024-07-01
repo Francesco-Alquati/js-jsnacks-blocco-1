@@ -1,0 +1,3 @@
+// CREO UNA VARIABILE PER LA SOMMA
+let somma = 0;
+
