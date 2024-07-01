@@ -21,3 +21,36 @@ jsnack2 (cartella)
 - script.js`
 e così via
 
+Suddivido i problemi in sottoproblemi 
+
+Snack 1
+
+1 - Creo un input nel file html
+2 - Creo un button per la ricerca
+3 - In js creo un array con la lista delgli invitate che possono partecipare
+4 - In js recupero il button per la ricerca e gli applico una funcion al click
+5 - Nella function recupero il valore inserito nel campo input dall'utente
+6 - Nella function Ciclo l'array e confronto il nome dell'utente con quelli nell'array
+7 - Se il nome è presente nell'array stampo "Benvenuto alla festa"
+7.1 - Se il nome non è presente nell'array stampo "Non sei stato invitato"
+
+Snack 2
+
+1 - Creo un array vuoto
+2 - Creo un input e un bottone nel DOM 
+3 - Creo una const per richiamare il bottone dal DOM
+4 - Creo una variabile contatore
+5 - Aggiungo un evento click al bottone
+6 - Richiamo l'input dal DOM
+7 - Creo un if per il contatore che aumenta ogni volta che il bottone viene premuto fino a 6 volte
+8 - Creo un if per inserire nell'array solo numeri dispari inseriti dall'utente
+
+Snack 3
+
+1 - Creo un input e un bottone nel DOM 
+2 - Creo una variabile per la somma
+3 - Creo una const per richiamare il bottone dal DOM
+4 - Aggiungo un evento click al bottone
+5 - Richiamo l'input dal DOM
+6 - Dichiaro il mio array e con il metodo split divido il numero di 4 cifre in 4 elementi dell'array
+7 - Assegno alla variabile somma la somma dei 4 elementi presenti nell'Array
