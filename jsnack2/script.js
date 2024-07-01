@@ -21,7 +21,21 @@ btn.addEventListener('click' ,function (){
         count++;
         disp.innerHTML = count;
 
-    }
+        // SE IL NUMERO è DISPARI LO INSERISCO NELL'ARRAY
+        if (text % 2 != 0){
+            text = document.getElementById('input').value;
+            array.push(text);
+            console.log(array)
+            document.getElementById("input").value = "";
+        }   
+        // SE IL NUMERO è PARI NON LO AGGIUNGO NELL'ARRAY
+        else{
+            document.getElementById("input").value = "";
+            console.log(array)
+        }
+
+}
+
 })
 
 
