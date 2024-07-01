@@ -34,8 +34,14 @@ btn.addEventListener('click' ,function (){
             console.log(array)
         }
 
-}
-
+    }
+    // AZZERO IL CONTATORE E SVUOTO L'ARRAY
+    else{
+        count = 0;
+        disp.innerHTML = count;
+        array = [];
+        console.log(array)
+    }
 })
 
 
