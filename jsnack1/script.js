@@ -7,5 +7,12 @@ const button = document.getElementById('search');
 button.addEventListener('click', function (){
 
     // RECUPERO IL VALORE INSERITO NEL CAMPO INPUT
-    let name = document.getElementById('user_name').value;
+    let user_name = document.getElementById('user-name').value;
+    
+    // DEFINISCO UNA VARIABILE FLAG
+    let check_name = false;
+
+    
+    
 })
+
