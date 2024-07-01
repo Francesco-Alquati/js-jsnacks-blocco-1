@@ -12,7 +12,14 @@ button.addEventListener('click', function (){
     // DEFINISCO UNA VARIABILE FLAG
     let check_name = false;
 
-    
+    // CICLO L'ARRAY   
+    for (i = 0; i < invited.length; i++){
+        // CONFRONTO IL NOME INSERITO DALL'UTENTE CON QUELLI PRESENTI NELL'ARRAY E AGGIORNO LA VARIABILE FLAG
+            if( invited[i].toLowerCase() == user_name.toLowerCase() ){
+                check_name = true;
+            }
+            
+    }
     
 })
 
