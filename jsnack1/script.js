@@ -1,5 +1,5 @@
 // CREO IL MIO ARRAY DI EMAIL
-const invited = ["Francesco", "Francesca", "Mario", "Maria", "Daniele", "Daniela", "Leonardo", "Riccardo"];
+const guests = ["Francesco", "Francesca", "Mario", "Maria", "Daniele", "Daniela", "Leonardo", "Riccardo"];
 
 // RECUPERO IL PULSANTE DAL DOM
 const button = document.getElementById('search');
@@ -13,13 +13,13 @@ button.addEventListener('click', function (){
     let check_name = false;
 
     // CICLO L'ARRAY   
-    for (i = 0; i < invited.length; i++){
+    for (i = 0; i < guests.length; i++){
     // CONFRONTO IL NOME INSERITO DALL'UTENTE CON QUELLI PRESENTI NELL'ARRAY E AGGIORNO LA VARIABILE FLAG
-        if( invited[i].toLowerCase() == user_name.toLowerCase() ){
+        if( guests[i].toLowerCase() === user_name.toLowerCase() ){
             check_name = true;
         }
     }
-    if(check_name == true){
+    if(check_name){
         console.log(`${user_name} Benvenuto alla festa`);
     }
     else{

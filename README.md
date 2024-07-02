@@ -27,7 +27,7 @@ Snack 1
 
 1 - Creo un input nel file html
 2 - Creo un button per la ricerca
-3 - In js creo un array con la lista delgli invitate che possono partecipare
+3 - In js creo un array con la lista degli invitati che possono partecipare
 4 - In js recupero il button per la ricerca e gli applico una funcion al click
 5 - Nella function recupero il valore inserito nel campo input dall'utente
 6 - Nella function Ciclo l'array e confronto il nome dell'utente con quelli nell'array

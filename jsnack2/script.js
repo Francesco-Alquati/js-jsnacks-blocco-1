@@ -45,3 +45,21 @@ btn.addEventListener('click' ,function (){
 })
 
 
+// SOLUZIONE CICLO PROMPT
+
+// CREO ARRAY
+let numbers = [];
+
+// ESEGUO UN CICLO DI 6 ITERAZIONI
+for(let i = 0; i<6; i++) {
+    // PERMETO L'INSERIMENTO DEL NUMERO DA PARTE DELL'UTENTE
+    let num = prompt('Inserisci un numero');
+
+    // VERIFICO SE IL NUMERO è DISPARI
+    if (num % 2 != 0){
+        //INSERISCO IL NUMERO NELL'ARRAY
+        numbers.push(num);
+    }
+}
+// MOSTRO L'ARRAY
+console.log(numbers);
